@@ -55,7 +55,7 @@ function App() {
                     
                     placeholder="Add a new to-do..."
                 />
-                <button className="add" type="submit">Add Todo</button>
+                <button className="add" type="submit">Add To-do</button>
 
               <div className="category-card">
                 <button onClick={() => setFilter('all')}
