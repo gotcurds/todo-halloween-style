@@ -42,7 +42,7 @@ function App() {
     };
     return (
         <div>
-            <h1 className="logo">My Simple Todo List</h1>
+            <h1 className="logo">My Simple To-do List</h1>
              
             <form className="input-bar" onSubmit={handleSubmit}>
                 <input
