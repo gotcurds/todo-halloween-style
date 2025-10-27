@@ -41,7 +41,9 @@ function App() {
         setTodos(prevTodos => prevTodos.filter(todo => todo.id !== id));
     };
     return (
-        <div>
+        <div className="app-wrapper">
+          <div className='app-wrappers'>
+
             <h1 className="logo">My Simple To-do List</h1>
              
             <form className="input-bar" onSubmit={handleSubmit}>
@@ -93,7 +95,7 @@ function App() {
                 ))}
             </ul>
           </form>
-            
+         </div>  
         </div>
     );
 }
